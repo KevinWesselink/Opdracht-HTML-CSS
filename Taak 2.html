@@ -5,7 +5,7 @@
     <meta name="viewport"
           content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <link rel="stylesheet" type="text/css" href="css/style.css?v=270920220951">
+    <link rel="stylesheet" type="text/css" href="css/style.css?v=280920221304">
     <title>Taak 2</title>
 </head>
 <body>
@@ -15,42 +15,93 @@
     </nav>
 
     <h1>Hoofdstuk 5: Formulieren</h1>
-    <h2>Taak 2a</h2>
-    <form action="mailto:97101484@st.deltion.nl" method="post">
 
-        <label for="fname">Voornaam:</label>
-        <br>
+    <div class="image2">
+        <img src="https://cdn.pixabay.com/photo/2017/06/10/07/18/list-2389219_960_720.png">
+    </div>
 
-        <input type="text" id="fname" name="fname" placeholder="Voornaam" value="">
-        <br>
+    <div class="right, div">
+        <form action="mailto:97101484@st.deltion.nl" method="post" class="right">
 
-        <label for="lname">Achternaam</label>
-        <br>
+            <div class="left">
+                <label for="fname">Voornaam:</label>
+                <br>
 
-        <input type="text" id="lname" name="fname" placeholder="Achternaam" value="">
-        <br>
+                <input type="text" id="fname" name="fname" placeholder="Voornaam" value="" required maxlength="100">
+                <br>
+                <br>
 
-        <label for="address">Adres</label>
-        <br>
+                <label for="lname">Achternaam</label>
+                <br>
 
-        <input type="text" id="address" name="address" placeholder="Adres" value="">
-        <br>
+                <input type="text" id="lname" name="fname" placeholder="Achternaam" value="" required maxlength="100">
+            </div>
 
-        <label for="postcode">Postcode</label>
-        <br>
+            <div class="left">
+                <label for="address">Adres</label>
+                <br>
 
-        <input type="text" id="postcode" name="postcode" placeholder="Postcode" value="">
-        <br>
+                <input type="text" id="address" name="address" placeholder="Adres" value="" required>
+                <br>
+                <br>
 
-        <label for="place">Plaats</label>
-        <br>
+                <label for="postcode">Postcode</label>
+                <br>
 
-        <input type="text" id="place" name="place" placeholder="Plaats" value="">
-        <br>
-        <br>
+                <input type="text" id="postcode" name="postcode" placeholder="Postcode" value="" required maxlength="6">
+            </div>
 
-        <input type="submit" value="Submit">
-    </form>
+            <div class="clear"></div>
 
+            <div class="left">
+                <label for="place">Plaats</label>
+                <br>
+
+                <input type="text" id="place" name="place" placeholder="Plaats" value="" required maxlength="100">
+                <br>
+                <br>
+
+                <label for="dateOfBirth">Geboortedatum</label>
+                <br>
+
+                <input type="date" id="dateOfBirth" name="dateOfBirth" placeholder="Geboortedatum" value="" required>
+            </div>
+
+            <div class="left">
+                <label for="email">E-mailadres</label>
+                <br>
+
+                <input type="email" id="email" name="email" placeholder="E-mailadres" value="" required>
+                <br>
+                <br>
+
+                <p>Geslacht</p>
+
+                <input type="radio" id="male" name="gender" placeholder="Geslacht" value="male" required>
+                <label for="male">Man</label>
+                <br>
+                <input type="radio" id="female" name="gender" placeholder="Geslacht" value="female" required>
+                <label for="female">Vrouw</label>
+            </div>
+
+            <div class="clear"></div>
+
+            <div class="left">
+                <label for="comment">Opmerking</label>
+                <br>
+
+                <textarea id="comment" name="comment" placeholder="Opmerking" required maxlength="400"></textarea>
+                <br>
+                <br>
+
+                <label for="newsletter">Nieuwsbrief</label>
+                <br>
+
+                <input type="checkbox" id="newsletter" name="newsletter" placeholder="Nieuwsbrief" value="" required>
+            </div>
+
+            <input type="submit" value="Submit">
+        </form>
+    </div>
 </body>
 </html>
