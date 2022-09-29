@@ -1,5 +1,169 @@
-img {
+img.auto {
     width: 100px;
     height: 100px;
     margin-left: 20px;
 }
+
+.div {
+    width: 60%;
+}
+
+.left {
+    float: left;
+}
+
+.right {
+    float: right;
+    margin-top: 50px;
+}
+
+.clear {
+    clear: both;
+}
+
+body {
+    height: 100%;
+    width: 100%;
+}
+
+.image2 {
+    margin-top: 120px;
+    margin-left: 50px;
+    margin-right: 50px;
+    border-right: 1px solid black;
+    width: 20%;
+    float: left;
+}
+
+.gHeader {
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    padding-left: 10px;
+    padding-right: 50px;
+    background-color: #202124;
+    height: 20px;
+}
+
+.textColorGray {
+    color: #BDC1C6;
+}
+
+.textColorWhite
+{
+    color: white;
+}
+
+.gPadding {
+    padding-right: 10px;
+}
+
+.gHeaderRight {
+    height: 20px;
+}
+
+.gImage {
+    width: 20px;
+    height: 20px;
+}
+
+.gImageDiv {
+    background-color: yellow;
+    flex-direction: row-reverse;
+    justify-content: center;
+    align-items: flex-end;
+    display: flex;
+    width: 100%;
+    height: 200px;
+}
+
+.gLogo {
+    width: 272px;
+    height: 92px;
+}
+
+.gSearchDiv {
+    background-color: green;
+    width: 100%;
+    height: 150px;
+}
+
+.gSearchDiv2 {
+    padding: 20px
+}
+
+.gSearchDiv3 {
+    justify-content: center;
+}
+
+.gSearchDiv4 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 10px;
+}
+
+.gSearchDiv5 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 20px;
+}
+
+button {
+    width: 130px;
+    height: 36px;
+    border-radius: 5px;
+    margin-left: 5px;
+    margin-right: 5px;
+}
+
+.searchButton {
+    width: 500px;
+    height: 40px;
+    border-radius: 25px;
+}
+
+.gRecommendedDiv {
+    background-color: gray;
+    width: 100%;
+    height: 200px;
+}
+
+.languages {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+footer {
+    width: 100%;
+    height: available;
+}
+
+.footer1 {
+    background-color: red;
+    padding: 15px;
+}
+
+.footer2 {
+    background-color: darkgoldenrod;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.sustainabiltyImage {
+    height: 15px;
+    width: 15px;
+    margin-right: 10px;
+}
+
+.footer3 {
+    display: flex;
+    justify-content: space-around;
+    background-color: brown;
+    height: 20px;
+}
+
