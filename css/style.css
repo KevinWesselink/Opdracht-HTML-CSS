@@ -1,3 +1,5 @@
+/* Taak 1 CSS begint hier! */
+
 img.auto {
     width: 100px;
     height: 100px;
@@ -6,6 +8,14 @@ img.auto {
 
 .div {
     width: 60%;
+}
+
+/* Taak 2 CSS begint hier! */
+
+img.form {
+    width: 100px;
+    height: 100px;
+    margin-left: 20px;
 }
 
 .left {
@@ -35,6 +45,8 @@ body {
     width: 20%;
     float: left;
 }
+
+/* Taak 5 CSS begint hier! */
 
 .gHeader {
     display: flex;
@@ -182,3 +194,162 @@ hr {
     color: #999DA2;
 }
 
+/* Taak 6 CSS begint hier! */
+
+.t6Navbar {
+    height: 30px;
+    background-color: #9ad2f3;
+    margin-bottom: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.t6Banner {
+    height: 100px;
+    background-color: #9ad2f3;
+    margin-bottom: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.t6Image {
+    height: 80px;
+    width: 80px;
+}
+
+.t6Margin{
+   margin-left: 10px;
+}
+
+.t6Content {
+    height: 300px;
+    width: 80%;
+    background-color: #9ad2f3;
+    margin-bottom: 5px;
+    margin-right: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    float: left;
+}
+
+.t6News {
+    height: 300px;
+    width: 19%;
+    background-color: #9ad2f3;
+    margin-bottom: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    float: left;
+}
+
+.t6Footer {
+    height: 50px;
+    background-color: #9ad2f3;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Taak 7 CSS begint hier!*/
+
+.t7Navbar {
+    height: 50px;
+    background-color: #9ad2f3;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 5px;
+}
+
+nav.t7Header {
+    background-color: #9ad2f3;
+    justify-content: center;
+    align-items: center;
+}
+
+.t7Banner {
+    height: 100px;
+    background-color: #9ad2f3;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 5px;
+}
+
+.t7Image {
+    height: 35px;
+    width: 35px;
+}
+
+.t7Padding {
+    padding-right: 50px;
+}
+
+.t7Content {
+    height: 300px;
+    background-color: #9ad2f3;
+    float: left;
+    width: 80%;
+    margin-bottom: 5px;
+}
+
+.t7ArticleHeader {
+    height: 30px;
+    width: 100%;
+    padding-left: 100px;
+    padding-top: 15px
+}
+
+.t7HR {
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.t7Article {
+    margin-left: 20px;
+    margin-top: 20px;
+    height: 100px;
+    width: 80%;
+}
+
+.t7ArticleImage {
+    height: 3.75em;
+    width: 6.625em;
+    float: left;
+}
+
+.t7ArticleTitle {
+    float: left;
+    margin-left: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.t7Margin {
+    margin-left: 100px;
+    margin-right: 100px;
+}
+
+.t7News {
+    height: 300px;
+    background-color: #9ad2f3;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    float: left;
+    width: 20%;
+    margin-bottom: 5px;
+}
+
+.t7Footer {
+    height: 100px;
+    background-color: #9ad2f3;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
