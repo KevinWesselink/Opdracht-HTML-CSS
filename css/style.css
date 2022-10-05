@@ -20,6 +20,7 @@ img.form {
 
 .left {
     float: left;
+    margin-left: 10px;
 }
 
 .right {
@@ -258,26 +259,24 @@ hr {
 
 .t7Navbar {
     height: 50px;
-    background-color: #9ad2f3;
+    background-color: #f1f1f1;
     display: flex;
     justify-content: center;
     align-items: center;
-    margin-bottom: 5px;
 }
 
 nav.t7Header {
-    background-color: #9ad2f3;
+    background-color: #f1f1f1;
     justify-content: center;
     align-items: center;
 }
 
 .t7Banner {
     height: 100px;
-    background-color: #9ad2f3;
+    background-color: #f1f1f1;
     display: flex;
     justify-content: center;
     align-items: center;
-    margin-bottom: 5px;
 }
 
 .t7Image {
@@ -290,10 +289,9 @@ nav.t7Header {
 }
 
 .t7Content {
-    background-color: #9ad2f3;
+    background-color: #f1f1f1;
     float: left;
     width: 80%;
-    margin-bottom: 5px;
 }
 
 .t7ArticleHeader {
@@ -337,16 +335,15 @@ nav.t7Header {
 .t7Divider {
     height: 20px;
     width: 80%;
-    background-color: #9ad2f3;
+    background-color: f1f1f1;
 }
 
 .t7News {
-    background-color: #9ad2f3;
+    background-color: #f1f1f1;
     justify-content: center;
     align-items: center;
     float: left;
     width: 20%;
-    margin-bottom: 5px;
 }
 
 .t7NewsArticle {
@@ -381,8 +378,56 @@ nav.t7Header {
 
 .t7Footer {
     height: 100px;
-    background-color: #9ad2f3;
+    background-color: #f1f1f1;
     display: flex;
     align-items: center;
     justify-content: space-around;
+}
+
+.t7Over {
+    background-color: #f1f1f1;
+    float: left;
+    width: 80%;
+}
+
+.t7OverMargin {
+    margin-left: 20px;
+}
+
+.t7Standings {
+    background-color: #f1f1f1;
+    float: left;
+    width: 80%;
+}
+
+.t7StandingsRacers {
+    float: left;
+}
+
+.t7StandingsConstructers {
+    float: left;
+}
+
+table, td, tr {
+    border: 1px solid black;
+}
+
+.t7StandingsConstructersMargin {
+    margin-left: 50px;
+}
+
+.t7Calendar {
+    background-color: #f1f1f1;
+    float: left;
+    width: 80%;
+}
+
+.t7Contact {
+    background-color: #f1f1f1;
+    float: left;
+    width: 80%;
+}
+
+.t7MarginBottom {
+    margin-bottom: 10px;
 }
