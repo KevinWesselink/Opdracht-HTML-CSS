@@ -289,7 +289,7 @@ nav.t7Header {
 }
 
 .t7Content {
-    background-color: #f1f1f1;
+    background-color: #f3f6fa;
     float: left;
     width: 80%;
 }
@@ -335,11 +335,11 @@ nav.t7Header {
 .t7Divider {
     height: 20px;
     width: 80%;
-    background-color: f1f1f1;
+    background-color: #ffffff;
 }
 
 .t7News {
-    background-color: #f1f1f1;
+    background-color: #ffffff;
     justify-content: center;
     align-items: center;
     float: left;
@@ -385,7 +385,7 @@ nav.t7Header {
 }
 
 .t7Over {
-    background-color: #f1f1f1;
+    background-color: #ffffff;
     float: left;
     width: 80%;
 }
@@ -395,17 +395,8 @@ nav.t7Header {
 }
 
 .t7Standings {
-    background-color: #f1f1f1;
     float: left;
     width: 80%;
-}
-
-.t7StandingsRacers {
-    float: left;
-}
-
-.t7StandingsConstructers {
-    float: left;
 }
 
 table, td, tr {
@@ -417,17 +408,49 @@ table, td, tr {
 }
 
 .t7Calendar {
-    background-color: #f1f1f1;
+    background-color: #ffffff;
     float: left;
     width: 80%;
 }
 
 .t7Contact {
-    background-color: #f1f1f1;
+    background-color: #ffffff;
     float: left;
     width: 80%;
 }
 
 .t7MarginBottom {
     margin-bottom: 10px;
+}
+
+.t7HeaderFooterColor {
+    color: #7e8284;
+    padding-left: 5px;
+    padding-right: 5px;
+}
+
+.t7OverCSS {
+    background-color: #f3f6fa;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.t7StandingsCSS {
+    background-color: #f3f6fa;
+    margin: 20px;
+    padding: 10px;
+    float: left;
+    width: 40%;
+}
+
+.t7CalendarCSS {
+    background-color: #f3f6fa;
+    margin: 20px;
+    padding: 10px;
+}
+
+.t7ContactCSS {
+    background-color: #f3f6fa;
+    margin: 20px;
+    padding: 10px;
 }
